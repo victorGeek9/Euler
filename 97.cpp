@@ -122,15 +122,3 @@ void compos(short* arr1, short* arr2, int arr_size1, int arr_size2, short* resul
 		}
 	}
 }
-/////////////////JAVA///////////////////////////
-		BigInteger mod = new BigInteger("10000000000");
-		BigInteger mul = new BigInteger("28433");
-		BigInteger result = new BigInteger("2");
-		BigInteger temp;
-		temp = result.pow(7830457);
-		result = temp.mod(mod);
-		temp = result.multiply(mul);
-		result = temp.mod(mod);
-		mul = new BigInteger("1");
-		temp = result.add(mul);
-		System.out.print(temp);
